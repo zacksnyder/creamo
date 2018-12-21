@@ -1,0 +1,20 @@
+{
+  "name": "creamo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "creamo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "git+https://github.com/zacksnyder/creamo.git",
+  "author": "zacksnyder <you@example.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zacksnyder/creamo/issues"
+  },
+  "homepage": "https://github.com/zacksnyder/creamo#readme",
+  "dependencies": {
+    "serialport": "^7.1.1",
+    "socket.io": "^2.2.0"
+  }
+}

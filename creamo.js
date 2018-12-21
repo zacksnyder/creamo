@@ -28,7 +28,7 @@
             [' ', 'set %m.digital value to %m.on', 'setDigitalonoff','Red LED','on'],
             ['b', 'get %m.digital value','getDigitalvalue','Red Switch'],
             ['r', 'get %m.analog value', 'getAnalogvalue', 'Red VR'],
-            [' ', 'analog %m.analog value from %n ~ %n to %n to %n','setAnalogValue','Red Vr',0,1023,0,255]
+            [' ', 'analog %m.analog value from %n ~ %n to %n ~ %n','setAnalogValue','Red Vr',0,1023,0,255]
         ],
         menus:{
             digital:["Speaker","Red LED","Green LED","Blue LED","Moter1 left","Moter1 right","Moter2 left","Moter2 right",

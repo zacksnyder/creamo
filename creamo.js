@@ -1,5 +1,6 @@
 (function(ext) {
     // Cleanup function when the extension is unloaded
+    var socket = io.connect('http://localhost:8080', {'forceNew':true});
     ext._shutdown = function() {};
 
     // Status reporting code

@@ -11,7 +11,7 @@ app.listen(8080);
 //defaults
 var portName = null;
 var currentPort = null;
-var baudRate = 9600;
+var baudRate = 57600;
 var allPorts = [];
 
 io.on('connection', function(socket){
@@ -40,6 +40,7 @@ io.on('connection', function(socket){
             return;
         }
         currentPort.write(new Buffer(data), function(err, res) {
+            console.log(data)
             if (err) onPortError(err);
         });
 //        currentPort.write(new Buffer([parseInt(data)]));//write byte

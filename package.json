@@ -2,12 +2,16 @@
   "name": "creamo",
   "version": "1.0.0",
   "description": "",
-  "main": "creamo.js",
+  "main": "creamoLink.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "pkg ."
+  },
+  "bin": {
+    "app": "creamoLink.js"
   },
   "repository": "git+https://github.com/zacksnyder/creamo.git",
-  "author": "zacksnyder <you@example.com>",
+  "author": "zacksnyder <ojh1140@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/zacksnyder/creamo/issues"
@@ -16,5 +20,8 @@
   "dependencies": {
     "serialport": "^7.1.1",
     "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "pkg": "^4.3.5"
   }
 }

@@ -1,0 +1,19 @@
+{ "extensionName": "Creamo SmartBlock",
+    "extensionPort": 1337,
+    "blockSpecs": [
+   [" ","set Chanel %m.chNum","setChanel","1"],
+   [" ", "set %m.digital value to %n", "setDigitalvalue","RedLED",255],
+   [" ", "set %m.digital value to %m.on", "setDigitalonoff","RedLED","on"],
+   ["b", "get %m.digitalInput value","getDigitalvalue","RedSwitch"],
+   ["r", "get %m.analogInput value", "getAnalogvalue", "RedVR"]
+    ],
+    "menus":{
+        "digital":["Speaker","RedLED","GreenLED","BlueLED","Motor1Left","Motor1Right","Motor2Left","Motor2Right",
+            "RedFND","GreenFND","BlueFND","RedMatrix","GreenMatrix","BlueMatrix"],
+        "on":["on","off"],
+        "digitalInput":["RedSwitch","GreenSwitch","BlueSwitch"],
+        "analogInput":["RedVR","GreenVR","BlueVR","CDS","Temperature","Humanity","Microphone","Ultrasonic"],
+        "chNum":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32]
+
+    }
+   }
